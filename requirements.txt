@@ -3,4 +3,3 @@ Pillow
 numpy
 flask
 tensorflow
-base64
