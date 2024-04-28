@@ -22,9 +22,4 @@ jobs:
           push: true
           tags: ${{ secrets.DOCKERHUB_USERNAME }}/cartoonizer-api:latest  # Replace placeholders
 
-      - name: Build and push Docker image (multi-arch)  # Optional for multi-architecture support
-        uses: docker/build-push-action@v3
-        with:
-          push: true
-          tags: ${{ secrets.DOCKERHUB_USERNAME }}/cartoonizer-api:latest-multiarch  # Replace placeholders
-          platforms: linux/amd64,linux/arm64  # Example platforms (adjust as needed)
+      
