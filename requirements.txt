@@ -2,4 +2,4 @@ opencv-python
 Pillow
 numpy
 flask
-tensorflow
+tflite-runtime
